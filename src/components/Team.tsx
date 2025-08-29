@@ -46,7 +46,7 @@ const Team = () => {
       description: "Créateur de liens avec les producteurs",
       image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
       linkedin: "#",
-      email: "lucas@apy.be"
+      email: "ilias@apy.be"
     },
     {
       name: "Eden",
