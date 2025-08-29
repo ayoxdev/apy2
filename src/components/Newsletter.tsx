@@ -106,7 +106,7 @@ const Newsletter = () => {
               />
               <label htmlFor="consent" className="text-sm text-gray-600 leading-relaxed cursor-pointer">
                 J'accepte de recevoir la newsletter d'apy et confirme avoir lu la{' '}
-                <a href="#" className="text-raspberry  hover:underline">
+                <a href="PolitiqueConfidentialite" className="text-raspberry  hover:underline">
                   politique de confidentialité
                 </a>. 
                 Vous pouvez vous désabonner à tout moment.

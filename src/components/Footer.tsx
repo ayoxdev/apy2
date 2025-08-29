@@ -53,7 +53,7 @@ const Footer = () => {
                 whileHover={{ x: 5 }}
               >
                 <MapPin size={16} />
-                Bruxelles, Belgique
+                Nivelles, Belgique
               </motion.div>
             </div>
           </div>
