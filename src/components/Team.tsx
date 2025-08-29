@@ -9,7 +9,7 @@ const Team = () => {
 
   const team = [
     {
-      name: "Sophie",
+      name: "Jérémy",
       role: "Co-fondatrice & CEO",
       description: "Passionnée d'innovation durable",
       image: "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -17,7 +17,7 @@ const Team = () => {
       email: "sophie@apy.be"
     },
     {
-      name: "Thomas",
+      name: "Aimeric",
       role: "Co-fondateur & CTO",
       description: "Expert en transformation alimentaire",
       image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -25,7 +25,7 @@ const Team = () => {
       email: "thomas@apy.be"
     },
     {
-      name: "Emma",
+      name: "Juliette",
       role: "Responsable Production",
       description: "Garante de la qualité apy",
       image: "https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -33,13 +33,29 @@ const Team = () => {
       email: "emma@apy.be"
     },
     {
-      name: "Lucas",
-      role: "Responsable Partenariats",
+      name: "Romain",
+      role: "Responsable Production",
+      description: "Garante de la qualité apy",
+      image: "https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=400",
+      linkedin: "#",
+      email: "emma@apy.be"
+    },
+    {
+      name: "Ilïas",
+      role: "Responsable IT",
       description: "Créateur de liens avec les producteurs",
       image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
       linkedin: "#",
       email: "lucas@apy.be"
-    }
+    },
+    {
+      name: "Eden",
+      role: "Responsable Production",
+      description: "Garante de la qualité apy",
+      image: "https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=400",
+      linkedin: "#",
+      email: "emma@apy.be"
+    },
   ]
 
   const containerVariants = {
