@@ -1,4 +1,9 @@
+@font-face {
+    font-family: 'Gorgonzo';
+    src: url('../src/assets/fonts/Gorgonzo.otf');
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
