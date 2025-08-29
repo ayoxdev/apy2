@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import {ArrowRight, Leaf} from 'lucide-react'
+import { ArrowRight, Leaf } from 'lucide-react'
 
 const Hero = () => {
   const titleVariants = {
@@ -28,7 +28,7 @@ const Hero = () => {
     }
   }
 
-  const title = "L'été est là,  apy aussi !"
+  const title = "apy, partout tout le temps !"
 
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-mango/20 via-cream to-kiwi/20">
@@ -65,15 +65,15 @@ const Hero = () => {
               variants={titleVariants}
               initial="hidden"
               animate="visible"
-              className="text-5xl sm:text-6xl lg:text-7xl  text-raspberry mb-6"
+              className="text-5xl sm:text-6xl lg:text-7xl text-raspberry mb-6 leading-tight break-words"
             >
               {title.split('').map((char, index) => (
                 <motion.span
                   key={index}
                   variants={letterVariants}
-                  className="inline-block"
+                  className={char === ' ' ? "inline-block w-2" : "inline-block"}
                 >
-                  {char === ' ' ? '\u00A0' : char}
+                  {char}
                 </motion.span>
               ))}
             </motion.h1>
@@ -84,7 +84,7 @@ const Hero = () => {
               transition={{ delay: 1, duration: 0.6 }}
               className="text-xl text-gray-700 mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              apy, c'est <span className="text-raspberry">LA</span> boisson sans alcool qui transforme les fruits invendus en saveurs authentiques. 
+              apy, c'est <span className="text-raspberry">LA</span> boisson sans alcool qui transforme les fruits invendus en saveurs authentiques.
               <span className=" text-transparent text-stroke text-stroke-raspberry"> Fruité, fun & responsable.</span>
             </motion.p>
 

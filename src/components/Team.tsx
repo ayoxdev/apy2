@@ -2,6 +2,13 @@ import React from 'react'
 import { motion, useInView } from 'framer-motion'
 import { Linkedin, Mail } from 'lucide-react'
 
+import julietteImg from '../assets/images/team/juliette.png'
+import iliasImg from '../assets/images/team/ilias.png'
+import aimericImg from '../assets/images/team/aimeric.png'
+import edenImg from '../assets/images/team/eden.png'
+import jeremyImg from '../assets/images/team/jeremy.png'
+import romainImg from '../assets/images/team/romain.png'
+
 const Team = () => {
   const ref = React.useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
@@ -11,42 +18,42 @@ const Team = () => {
       name: "Juliette",
       role: "non-défini",
       description: "Lorem Ipsum Dolor",
-      image: "../src/assets/images/team/juliette.png",
+      image: julietteImg,
       email: "juliette@apy.be"
     },
     {
       name: "Ilïas",
       role: "Responsable IT",
       description: "Gère l'aspect technique de apy",
-      image: "../src/assets/images/team/ilias.png",
+      image: iliasImg,
       email: "ilias@apy.be"
     },
     {
       name: "Aimeric",
       role: "non-défini",
       description: "Lorem Ipsum Dolor",
-      image: "../src/assets/images/team/aimeric.png",
+      image: aimericImg,
       email: "aimeric@apy.be"
     },
     {
       name: "Eden",
       role: "non-défini",
       description: "Lorem Ipsum Dolor",
-      image: "../src/assets/images/team/eden.png",
+      image: edenImg,
       email: "eden@apy.be"
     },
     {
       name: "Jérémy",
       role: "non-défini",
       description: "Lorem Ipsum Dolor",
-      image: "../src/assets/images/team/jeremy.png",
+      image: jeremyImg,
       email: "jeremy@apy.be"
     },
     {
       name: "Romain",
       role: "parti",
       description: "Lorem Ipsum Dolor",
-      image: "../src/assets/images/team/romain.png",
+      image: romainImg,
       email: "romain@apy.be"
     }
   ]
